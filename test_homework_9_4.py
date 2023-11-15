@@ -15,7 +15,6 @@ def test_greeting():
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
-
 def test_rectangle():
     """
     Напишите программу, которая берет длину и ширину прямоугольника
@@ -31,7 +30,6 @@ def test_rectangle():
     # TODO сосчитайте площадь
     area = a*b
     assert area == 200
-
 
 def test_circle():
     """
@@ -49,7 +47,6 @@ def test_circle():
     print(length)
     assert length == 144.51326206513048
 
-
 def test_random_list():
     """
     Создайте список из 10 случайных чисел от 1 до 100 и отсортируйте его по возрастанию.
@@ -63,7 +60,6 @@ def test_random_list():
     assert len(l) == 10
     assert l[0] < l[-1]
 
-
 def test_unique_elements():
     """
     Удалите из списка все повторяющиеся элементы
@@ -74,7 +70,6 @@ def test_unique_elements():
     assert isinstance(l, list)
     assert len(l) == 10
     assert l == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
 
 def test_dicts():
     """
